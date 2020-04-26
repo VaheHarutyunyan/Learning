@@ -1,0 +1,592 @@
+*{
+	margin: 0;
+}
+nav{
+	width: 100%;
+	height: 80px;
+}
+nav .container{
+	margin:auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .nav-logo{
+	padding-left: 100px;
+}
+nav .nav-logo h6{
+	font:33px SosNof_U;
+	letter-spacing: 1.98px;
+	margin: 0;
+	padding: 0;
+	color:#000000;
+}
+nav .nav-logo small{
+	font:11px Droid Sans, regular;
+	display:block;
+	text-align: right;
+	color:#000000;
+	margin: 0;
+}
+nav .navbar{
+	margin: 0;
+	height: 80px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .nav-link a{
+	display: inline-block;
+	text-decoration: none;
+	font: 16px Droid Sans;
+	letter-spacing: 0.96px;
+	color:#505050;
+	margin-right: 25px;
+	transition: border ease .5s ;
+}
+nav .nav-link a:hover{
+	border-bottom: 1px solid #BDD531;
+}
+nav .nav-btn{
+	height: 80px;
+}
+nav .nav-btn a{
+	display: inline-block;
+	width: 140px;
+	height: 80px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 76px;
+	text-align: center;
+	letter-spacing: 0.48px;
+}
+nav .nav-down{
+	height: 55px;
+	display: none;
+}
+nav .nav-down a{
+	height: 55px;
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 55px;
+	text-align: center;
+	color:#000000;
+}
+nav .nav-btn .btn-signUp-one{
+	background: #02BFDB;
+
+}
+nav .nav-btn .btn-signUp-two{
+	background: #BDD531;
+}
+
+
+header{
+	width: 100%;
+	height: 600px;
+	background:url('../img/painter-1937575_1920.jpg') center center no-repeat;
+	opacity: 0.8;
+}
+header .container{
+	margin:auto;
+	width: 90%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .header-title{
+	padding-left: 100px;
+	width: 500px;
+}
+header .header-title h1{
+	margin: 0;
+	font:60px Droid Sans;
+	font-weight: bold;
+}
+header .header-btn{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+header .header-btn button{
+	width: 224px;
+	height: 60px;
+	text-align: center;
+	vertical-align: center;
+	border-radius: 5px;
+	color:#000;
+	font-size: 20px;
+	letter-spacing: 0.25px;
+	cursor: pointer;
+	transition:all .5s linear;
+}
+header .header-btn-one{
+	background: #BDD531;
+	border:1px solid #BDD531;
+}
+header .header-btn-one:hover{
+	background:none;
+	border:1px solid #BDD531;
+}
+header .header-btn-two{
+	background:none;
+	border:1px solid #BDD531;
+}
+header .header-btn-two:hover{
+	background: #BDD531;
+	border:1px solid #BDD531;
+}
+
+section{
+	margin-top: 50px;
+	width: 100%;
+}
+
+section .container{
+	margin:auto;
+	width: 90%;	
+}
+section .section-content{
+	padding-left: 100px;
+	display: flex;
+	flex-direction: column;
+}
+section .section-title{
+	width: 40%;
+}
+section .section-title h2{
+	font:50px Droid Sans;
+	letter-spacing: 1.5px;
+	margin: 0;
+	padding: 0;
+}
+section .section-title p{
+	margin-top: 31px;
+	font:16px Droid Sans;
+	letter-spacing: 0.48px;
+}
+section .section-card{
+	margin-top: 50px;
+	display: flex;
+  	flex-wrap: wrap;
+}
+section .card{
+	border: 1px solid #D9D9D9;
+	width: 280px;
+	height: 340px;
+	border-radius:6px;
+	box-shadow: 0 0 2px 1px #D9D9D9;
+	padding: 0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+section .card-img{
+	width: 100%;
+	height: 180px;
+	margin: 0;
+	padding: 0;
+}
+section .card-img img{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border-radius: 5px 5px 0 0;
+}
+section .card-body{
+	margin: 15px;
+}
+section .card-body h6{
+	font:18px Droid Sans;
+	margin: 0;
+	padding: 0;
+	color: #292929;
+	font-weight: bold;
+	letter-spacing: 0.54px;
+}
+section .card-body p{
+	color: #292929;
+	font:13px Droid Sans;
+	letter-spacing: 0.39px;
+}
+section .card-footer{
+	display: flex;
+	justify-content: space-between;
+}
+section .card-name{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 15px;
+}
+section .card-name img{
+	width: 30px;
+	height: 30px;
+}
+section .card-name small{
+	font:13px Droid Sans;
+	letter-spacing: 0.39px;
+	color:#292929;
+	margin-left: 10px;
+}
+section .card-price{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-right: 15px;
+}
+section .card-price span{
+	font:28px Raleway;
+	color:#D35135;
+	letter-spacing: 0.48px;
+	line-height: 1px;
+}
+section .section-page{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 30px;
+}
+section .section-page button{
+	color:#fff;
+	border:1px solid #BDD531;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+section .section-page .btn-left{
+	background: none;
+	color:#BDD531;
+	margin-right: 20px;
+}
+section .section-page .btn-right{
+	background: #BDD531;
+}
+section .section-btn{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+section .section-btn button{
+	border:1px solid #BDD531;
+	font:16px Droid Sans;
+	letter-spacing: 0.48px;
+	border-radius: 6px;
+	padding: 12px 45px;
+	cursor: pointer;
+}
+section .section-btn .section-btn-one{
+	background:#BDD531;
+	margin-right: 13px;
+}
+section .section-btn .section-btn-two{
+	background:none;
+}
+article{
+	margin-top: 100px;
+	padding: 0;
+	width: 100%;
+	background-color: #fff;
+	background-image: linear-gradient(#FAFAFA 270px, white 200px)
+}
+article .container{
+	width: 90%;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+article .blog-one{
+	width: 45%;
+	margin-top: 75px;
+	display: flex;
+	justify-content: flex-start;
+	order:1;
+}
+article .card{
+	position: relative;
+	width: 260px;
+}
+article .card-img:hover ~ .img-read-more{
+	width:100px;
+}
+article .card .img-read-more{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+	background:rgba(189,213,49,.8);
+	height:260px;
+	transition: width .5s linear;
+	box-sizing: border-box;
+}
+article .card h6{
+	font:18px Droid Sans;
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+	color: #292929;
+	font-weight: bold;
+	letter-spacing: 0.54px;
+}
+article .card p{
+	color: #292929;
+	font:16px Droid Sans;
+	letter-spacing: 0.39px;
+	margin-top: 10px;
+}
+
+article .card-deer img{
+	width: 100%;
+	height:260px;
+}
+article .card-brush{
+	width: 220px;
+	margin-left: 40px;
+}
+article .card-brush .img-read-more{
+	height:200px;
+}
+article .card-brush img{
+	width: 100%;
+	height: 200px;
+}
+
+article .blog-two{
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	order:2;
+}
+article .blog-two .card-body{
+	margin-top: 100px;
+	display: flex;
+	justify-content: flex-start;
+}
+article .card-header{
+	
+}
+article .card-header h2{
+	padding-top: 20px;
+	font:50px Droid Sans;
+	font-weight: bold;
+	margin: 0;
+}
+article .card-header p{
+	font:16px Droid Sans;
+	letter-spacing: 0.48px;
+	margin-top: 10px;
+}
+article .article-btn{
+	margin-top: 50px;
+}
+article .article-btn button{
+	border:1px solid #BDD531;
+	font:16px Droid Sans;
+	letter-spacing: 0.48px;
+	border-radius: 6px;
+	padding: 12px 45px;
+	cursor: pointer;
+}
+article .article-btn .article-btn-one{
+	background:#BDD531;
+}
+article .article-btn .article-btn-two{
+	background:none;
+	margin-left: 13px;
+}
+article .card-painting{
+	width: 250px;
+}
+article .card-composing{
+	width: 250px;
+	margin-left: 40px;
+}
+article .blog-two img{
+	width: 100%;
+	height: 260px;
+}
+
+
+
+aside{
+	width: 100%;
+	padding-top: 50px;
+	background:url(../img/j.png) no-repeat 100% bottom;
+	-webkit-background-size: 400px;
+	background-size: 500px;
+}
+aside .aside-container{
+	width: 70%;
+	height: 100%;
+	margin: auto;
+}
+aside .list{
+	width: 80%;
+	height: 100%;
+	padding-top: 30px;
+
+}
+aside .list h2{
+	font: 50px Droid Sans;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	color: #292929;
+}
+aside .list p{
+	font:18px Droid Sans;
+	color:#292929;
+	letter-spacing: 0.54px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E9E8E6;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+aside .list p span{
+	color:#BDD531;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+
+
+
+.sidebar{
+	width: 100%;
+	margin-top: 100px;
+}
+.sidebar .container{
+	width: 80%;
+	margin:auto;
+	display: flex;
+	justify-content: space-around;
+}
+.sidebar h2{
+	font:50px Droid Sans;
+	letter-spacing: 1.5px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.sidebar .container .card img{
+	width: 160px;
+	height: 150px;
+	margin-top: 10px;
+}
+.sidebar .container .side-card-one{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+}
+.sidebar .container .card{
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+}
+.sidebar .container .side-card-two{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-left: 50px;
+	border-left: 1px solid #E9E8E6;
+}
+.sidebar .container .card-body{	
+	margin-left: 20px;
+}
+.sidebar .card-body h5{
+	font:25px Droid Sans;
+	letter-spacing: 0.75px;
+	margin: 0;
+	font-weight: 600;
+}
+.sidebar .card-body small{
+	font:14px Droid Sans;
+	letter-spacing: 0.48px;
+}
+.sidebar .card-body p{
+	margin-top: 10px;
+	font:16px Droid Sans;
+	letter-spacing: 0.48px;
+}
+
+footer{
+	margin-top: 50px;
+	background: #333333;
+	width: 100%;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 50px;
+}
+footer h5{
+	font:33px KannadaMN;
+	margin: 0;
+} 
+footer span{
+	font:11px Droid Sans;
+}
+footer .footer-link{
+	padding-top: 50px;
+}
+footer .footer-link a{
+	text-decoration: none;
+	font:16px Droid Sans;
+	letter-spacing: 0.96px;
+	color:#FFFFFF;
+	margin-left: 20px;
+}
+footer .footer-link a:hover{
+	color: #BDD531;
+}
+footer hr{
+	border:1px solid #4C4C4C;
+	width: 50px;
+	margin:30px auto;
+}
+footer h6{
+	font:16px Droid Sans;
+	letter-spacing: 0.96px;
+	margin-bottom: 30px;
+}
+footer .footer-icon i{
+	background:#292929;
+	color:#ffffff;
+	font-size:20px;
+	padding: 8px 15px;
+	margin-left: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background .5s linear;
+}
+footer .footer-icon i:hover{
+	background: #BDD531;
+}
+footer .footer-info{
+	width: 100%;
+	padding: 0;
+	background: #292929;
+	margin-top: 30px;
+}
+footer .footer-securety{
+	width: 65%;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+footer .footer-securety p{
+	display: inline-block;
+	font: 14px Droid Sans;
+}
+footer .footer-securety p span{
+	color:#FFC400;
+}
